@@ -1,12 +1,12 @@
- @font-face {
- 	font-family: "Starjedi";
+@font-face {
+	font-family: "Starjedi";
  	src:url("fonts/Starjedi.ttf");
- }
+}
 
-  @font-face {
- 	font-family: "SFDistantGalaxy";
- 	src:url('fonts/SFDistantGalaxy.ttf');
- } 
+@font-face {
+	font-family: "SFDistantGalaxy";
+	src:url("SFDistantGalaxy.ttf");
+}
 
 header{
 	background-color:#b9dce8;
