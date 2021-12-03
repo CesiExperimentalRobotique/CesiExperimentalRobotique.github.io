@@ -5,7 +5,7 @@
 
   @font-face {
  	font-family: "SFDistantGalaxy";
- 	src:url("fonts/SFDistantGalaxy.ttf");
+ 	src:url('fonts/SFDistantGalaxy.ttf');
  } 
 
 header{
