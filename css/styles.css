@@ -1,0 +1,233 @@
+ @font-face {
+ 	font-family: "Starjedi";
+ 	src:url("C:/Users/mathi/Desktop/Desktop CESI/SITE/SITE (HTML, CSS)/Starjedi.ttf");
+ }
+
+  @font-face {
+ 	font-family: "SFDistantGalaxy";
+ 	src:url("C:/Users/mathi/Desktop/Desktop CESI/SITE/SITE (HTML, CSS)/SFDistantGalaxy.ttf");
+ } 
+
+header{
+	background-color:#b9dce8;
+}
+
+nav.menu_nav ul li.btn{
+	list-style-type: none;
+	display: inline-block;
+}
+
+#bannerimage {
+  width: 100%;
+  background-image: url(https://cdna.artstation.com/p/assets/images/images/003/205/438/large/anderson-vieira-banner-starwars.jpg?1471027030);
+  height: 405px;
+  background-color: purple;
+  background-position: center;
+}
+
+nav.menu_nav ul li.btn a{
+	color: black;
+	background-color: white;
+	text-decoration: none;
+	padding: 10px;
+	opacity: 50%;
+}
+/* LES LIGNES QUI SUIVENT SONT RELATIVES À L'ANIMATION DES BOUTONS*/
+nav.menu_nav ul li.btn:hover a{
+	color: white;
+	background-color: black;
+	transition: 0.7s all;
+	opacity: 50%;
+}
+
+div#content{
+	background-color:  white;
+	opacity:.7; -moz-opacity:.7; -ms-filter:'alpha(opacity=70)';filter:alpha(opacity=70);
+}
+
+div#content div{
+	display: inline-block;
+	width: 48%;
+}
+
+div#content div h1,p, iframe{
+	margin: 30px;
+}
+
+div#content div.leftbox{
+	background-color:  white;
+	vertical-align: top;
+}
+
+div#content div.partieun{
+	color: black;
+	background-color: #F1F1F1;
+	width: 98%;
+	margin: 8px;
+}
+
+div#content div.partiedeux{
+	background-color: #F1F1F1;
+	width: 98%;
+	margin: 8px;
+}
+
+div#content div.partietrois{
+	background-color: white;
+	width: 98%;
+	margin: 8px;
+}
+
+div.partieun img{
+	border-radius: 50%;
+	width: 25%;
+	padding: 10px;
+}
+
+div.partiedeux img{
+	border-radius: 50%;
+	width: 25%;
+	padding: 10px;
+}
+
+div.partietrois img{
+	border-radius: 50%;
+	width: 25%;
+	padding: 10px;
+}
+
+
+div#content div.rightbox{
+	background-color:  #F1F1F1;
+	vertical-align: top;
+	width: 50%;
+	margin: 8px;
+}
+
+h1.Bienvenue{
+	color: black ;
+	font-family: 'SFDistantGalaxy', sans-serif;
+	/*font-family: "Segoe UI", sans-serif;*/
+	font-weight:normal;
+	font-style:normal;
+	font-size: 40px;
+}
+
+h2.OHAC{
+	color: #8A8A8A;
+	padding-left:30px;
+}
+
+h2.OHAC:hover {
+	color: black;
+}
+
+p.un{
+
+	font-weight: bold;
+}
+
+footer{
+	background-color: white;
+}
+
+head{
+	font-family: 'SFDistantGalaxy', sans-serif;
+	font-weight:normal;
+	font-style:normal;
+	/*font-family: "Segoe UI", sans-serif;*/
+}
+
+body{
+	font-family: 'SFDistantGalaxy', sans-serif;
+	font-weight:normal;
+	font-style:normal;
+	/*font-family: "Segoe UI", sans-serif;*/
+	/*background-image: url(https://tintandgraphics.com/wp-content/uploads/2016/02/extreme-storm.jpg);*/
+}
+
+mark{
+	color: black;
+	background-color: white;
+}
+
+/*.header-unit{	top:0%;left:0%;height:100%;width:100%;overflow: hidden;  position:absolute;background-size: cover;margin-left:auto;margin-right:auto;}
+video {	position: absolute;z-index: -1;}
+video.fillWidth {width: 100%;min-height: 100%;}
+#video-container { top:0%; left:0%; height:100%; width:100%; overflow: hidden; background-size:cover}*/
+
+img{
+	width: 27%;
+}
+
+body{
+	animation: fadein 2s;
+    -webkit-animation: fadein 2s;
+}
+
+@-webkit-keyframes fadein { /* Pour la transition */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+
+
+
+.oir {
+  text-align:center;
+  color:#555;
+  font-weight:200;
+  font-size:26px;
+  padding-top:1vh;
+  height:10vh;
+  overflow:hidden;
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  -webkit-transform: translate3d(0,0,0);
+}
+
+div.oir {
+	  display: inline-block;
+	  overflow:hidden;
+	  white-space:nowrap;
+}
+
+.oyk {
+  animation: showup 15s infinite;
+}
+
+.kyo {
+  width:0px;
+  animation: reveal 15s infinite;
+}
+
+.kyo span {
+  margin-left:0px;
+  animation: slidein 15s infinite;
+}
+
+@keyframes showup {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:0;}
+}
+
+@keyframes slidein {
+    0% { margin-left:-800px; }
+    20% { margin-left:-800px; }
+    35% { margin-left:0px; }
+    100% { margin-left:1200px; }
+}
+
+@keyframes reveal {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:700px;}
+    80% {opacity:1;}
+    100% {opacity:0;width:355px;}
+}
