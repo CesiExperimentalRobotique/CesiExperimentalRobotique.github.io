@@ -1,11 +1,11 @@
  @font-face {
  	font-family: "Starjedi";
- 	src:url("C:/Users/mathi/Desktop/Desktop CESI/SITE/SITE (HTML, CSS)/Starjedi.ttf");
+ 	src:url("fonts/Starjedi.ttf");
  }
 
   @font-face {
  	font-family: "SFDistantGalaxy";
- 	src:url("C:/Users/mathi/Desktop/Desktop CESI/SITE/SITE (HTML, CSS)/SFDistantGalaxy.ttf");
+ 	src:url("fonts/SFDistantGalaxy.ttf");
  }
 
 head{
