@@ -1,11 +1,11 @@
  @font-face {
  	font-family: "Starjedi";
- 	src:url("/CesiExperimentalRobotique.github.io/fonts/Starjedi.ttf");
+ 	src:url("/fonts/Starjedi.ttf");
  }
 
   @font-face {
  	font-family: "SFDistantGalaxy";
- 	src:url("/CesiExperimentalRobotique.github.io/fonts/SFDistantGalaxy.ttf");
+ 	src:url("/fonts/SFDistantGalaxy.ttf");
  } 
 
 header{
