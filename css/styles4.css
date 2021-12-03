@@ -1,0 +1,200 @@
+ @font-face {
+ 	font-family: "Starjedi";
+ 	src:url("C:/Users/mathi/Desktop/Desktop CESI/SITE/SITE (HTML, CSS)/Starjedi.ttf");
+ }
+
+  @font-face {
+ 	font-family: "SFDistantGalaxy";
+ 	src:url("C:/Users/mathi/Desktop/Desktop CESI/SITE/SITE (HTML, CSS)/SFDistantGalaxy.ttf");
+ }
+
+head{
+	font-family: 'SFDistantGalaxy', sans-serif;
+	/*font-family: "Segoe UI", sans-serif;*/
+	font-weight:normal;
+	font-style:normal;
+}
+
+body{
+	font-family: 'SFDistantGalaxy', sans-serif;
+	/*font-family: "Segoe UI", sans-serif;*/
+	font-weight:normal;
+	font-style:normal;
+	/*background-image: url(https://backgroundcheckall.com/wp-content/uploads/2017/12/neon-green-background-11.jpg);*/
+	color: black;
+	animation: fadein 2s;
+    -webkit-animation: fadein 2s;
+
+}
+
+@-webkit-keyframes fadein { /* Pour la transition */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+div{
+	animation: fadein 4s;
+	-webkit-animation: 4s;
+}
+
+@-webkit-keyframes fadein { /* Pour la transition */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+nav.menu_nav ul li.btn{
+	list-style-type: none;
+	display: inline-block;
+}
+
+nav.menu_nav ul li.btn a{
+	color: black;
+	background-color: white;
+	text-decoration: none;
+	padding: 10px;
+	opacity: 50%;
+}
+/* LES LIGNES QUI SUIVENT SONT RELATIVES À L'ANIMATION DES BOUTONS*/
+nav.menu_nav ul li.btn:hover a{
+	color: white;
+	background-color: black;
+	transition: 0.7s all;
+	opacity: 50%;
+}
+
+h1.Bienvenue{
+	color: black ;
+	font-family: 'SFDistantGalaxy', sans-serif;
+	/*font-family: "Segoe UI", sans-serif;*/
+	font-weight:normal;
+	font-style:normal;
+	font-size: 40px;
+}
+
+footer{
+	background-color: white;
+}
+
+div#content{
+	background-color:  white;
+	opacity:.7; -moz-opacity:.7; -ms-filter:'alpha(opacity=70)';filter:alpha(opacity=70);
+}
+
+div#content div{
+	display: inline-block;
+	width: 48%;
+}
+
+div#content div h1,p, iframe{
+	margin: 30px;
+}
+
+div#content div.leftbox{
+	background-color:  white;
+	vertical-align: top;
+}
+
+div#content div.partieun{
+	color: black;
+	background-color: white;
+	width: 98%;
+	margin: 8px;
+}
+
+div#content div.partieun:hover{
+	color: white;
+	background-color: black;
+	transition: 0.7s all;
+	opacity: 50%;
+}
+
+
+div#content div.partiedeux{
+	color: black;
+	background-color: #F1F1F1;
+	width: 98%;
+	margin: 8px;
+}
+
+div#content div.partiedeux:hover{
+	color: white;
+	background-color: black;
+	transition: 0.7s all;
+	opacity: 50%;
+}
+
+div#content div.partietrois{
+	background-color: white;
+	width: 98%;
+	margin: 8px;
+}
+
+div.partieun img{
+	border-radius: 50%;
+	width: 50%;
+	padding: 10px;
+}
+
+div.partiedeux img{
+	border-radius: 50%;
+	width: 50%;
+	padding: 10px;
+}
+
+div.partietrois img{
+	border-radius: 50%;
+	width: 25%;
+	padding: 10px;
+}
+
+
+div#content div.rightbox{
+	background-color:  white;
+	vertical-align: top;
+}
+
+div#content div.partieonze{
+	color: black;
+	background-color: #F1F1F1;
+	width: 98%;
+	margin: 8px;
+}
+
+div#content div.partieonze:hover{
+	color: white;
+	background-color: black;
+	transition: 0.7s all;
+	opacity: 50%;
+}
+
+div#content div.partiedouze{
+	color: black;
+	background-color: white;
+	width: 98%;
+	margin: 8px;
+}
+
+div#content div.partiedouze:hover{
+	color: white;
+	background-color: black;
+	transition: 0.7s all;
+	opacity: 50%;
+}
+
+div.rightbox img{
+	border-radius: 50%;
+	width: 50%;
+	padding: 10px;
+}
+
+img{
+	width: 50%;
+}
