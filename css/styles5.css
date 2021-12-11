@@ -19,7 +19,7 @@ body{
 	font-family: 'SFDistantGalaxy', sans-serif;
 	font-weight:normal;
 	font-style:normal;
-	color: black;
+	color: white;
 	animation: fadein 2s;
     -webkit-animation: fadein 2s;
 
@@ -68,7 +68,7 @@ nav.menu_nav ul li.btn:hover a{
 }
 
 h1.Bienvenue{
-	color: black ;
+	color: white ;
 	font-family: 'SFDistantGalaxy', sans-serif;
 	font-weight:normal;
 	font-style:normal;
