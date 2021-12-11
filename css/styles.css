@@ -12,6 +12,8 @@ header{
 	background-color:#b9dce8;
 }
 
+.space { margin-top: 100px; }
+
 nav.menu_nav ul li.btn{
 	list-style-type: none;
 	display: inline-block;
@@ -19,15 +21,15 @@ nav.menu_nav ul li.btn{
 
 #bannerimage {
   width: 100%;
-  background-image: url(https://cdna.artstation.com/p/assets/images/images/003/205/438/large/anderson-vieira-banner-starwars.jpg?1471027030);
+  background-image: url(images/banner.jpg);
   height: 405px;
   background-color: purple;
   background-position: center;
 }
 
 nav.menu_nav ul li.btn a{
-	color: black;
-	background-color: white;
+	color: white;
+	background-color: black;
 	text-decoration: none;
 	padding: 10px;
 	opacity: 50%;
@@ -41,7 +43,7 @@ nav.menu_nav ul li.btn:hover a{
 }
 
 div#content{
-	background-color:  white;
+	background-color:  black;
 	opacity:.7; -moz-opacity:.7; -ms-filter:'alpha(opacity=70)';filter:alpha(opacity=70);
 }
 
@@ -55,7 +57,7 @@ div#content div h1,p, iframe{
 }
 
 div#content div.leftbox{
-	background-color:  white;
+	background-color:  black;
 	vertical-align: top;
 }
 
@@ -105,9 +107,8 @@ div#content div.rightbox{
 }
 
 h1.Bienvenue{
-	color: black ;
+	color: white ;
 	font-family: 'SFDistantGalaxy', sans-serif;
-	/*font-family: "Segoe UI", sans-serif;*/
 	font-weight:normal;
 	font-style:normal;
 	font-size: 40px;
@@ -128,21 +129,20 @@ p.un{
 }
 
 footer{
-	background-color: white;
+	color: white;
+	background-color: black;
 }
 
 head{
 	font-family: 'SFDistantGalaxy', sans-serif;
 	font-weight:normal;
 	font-style:normal;
-	/*font-family: "Segoe UI", sans-serif;*/
 }
 
 body{
 	font-family: 'SFDistantGalaxy', sans-serif;
 	font-weight:normal;
 	font-style:normal;
-	/*font-family: "Segoe UI", sans-serif;*/
 	/*background-image: url(https://tintandgraphics.com/wp-content/uploads/2016/02/extreme-storm.jpg);*/
 }
 
@@ -161,6 +161,7 @@ img{
 }
 
 body{
+	background-color: black;
 	animation: fadein 2s;
     -webkit-animation: fadein 2s;
 }
@@ -179,7 +180,7 @@ body{
 
 .oir {
   text-align:center;
-  color:#555;
+  color:white;
   font-weight:200;
   font-size:26px;
   padding-top:1vh;
@@ -196,7 +197,10 @@ div.oir {
 	  white-space:nowrap;
 }
 
-.oyk {
+.oyk {    /* For increasing performance 
+                       ID/Class should've been used. 
+                       For a small demo 
+                       it's okaish for now */
   animation: showup 15s infinite;
 }
 
