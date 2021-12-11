@@ -21,7 +21,7 @@ nav.menu_nav ul li.btn{
 
 #bannerimage {
   width: 100%;
-  background-image: url(images/banner.jpg);
+  background-image: url("/images/banner.jpg");
   height: 405px;
   background-color: purple;
   background-position: center;
